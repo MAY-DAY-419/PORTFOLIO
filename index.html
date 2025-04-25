@@ -1,102 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mayank Dantre Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mayank Dantre | Portfolio</title>
+  <link rel="stylesheet" href="style/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
-    <!-- 1. Introduction Section -->
-    <section id="intro">
-        <div class="intro-content">
-            <h1>Mayank Dantre</h1>
-            <p>From Pune | B.Tech IT (MIT AOE) | Passionate about Coding & Tech</p>
-            <p>Hobbies: Adventure & Exploration</p>
-            <a href="#profile" class="scroll-down-btn">↓ Scroll Down</a>
+  <!-- First Page with Name and Typing Effect -->
+  <section id="first-page">
+    <header class="header">
+      <!-- Name at top-left -->
+       
+        <div class="name">
+            <span>MaYaNK</span><br />
+            <span class="last-name">DANTRE</span>
+    
+
+        <!-- Social Icons at top-center -->
+        <div class="top-icons">
+            <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
         </div>
-    </section>
+       </div>
+      
 
-    <!-- 2. Profile, Skills & Certificates Section -->
-    <section id="profile">
-        <div class="profile-container">
-            <!-- Profile Picture and About You -->
-            <div class="profile-pic">
-                <img src="your-image-placeholder.jpg" alt="Mayank Dantre">
-            </div>
-            <div class="profile-info">
-                <h2>About Me</h2>
-                <p>I am a tech enthusiast with a passion for coding and solving real-world problems. Currently, I’m focusing on web development and programming languages such as Python, C, C++, and SQL.</p>
-                <p>Additionally, I completed my MScIT during my 10th class.</p>
-            </div>
+      <!-- Photo Circle top-right -->
+      <div class="circle-photo">
+        <img src="image/md.jpg" alt="Mayank Photo" />
+      </div>
+    </header>
+
+    <!-- Animated text at bottom-right -->
+    <div class="animated-text">
+      <span id="typing-effect"></span>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I am Mayank Dantre, from Pune. I am a B.Tech IT student at MIT AOE. My passion lies in coding and technology. I love learning new things in the tech world and solving complex problems. My hobbies include adventure activities, and I am always looking to explore the world.</p>
+      <p>Skills: HTML, CSS, Python, C, C++, SQL</p>
+      <p>I completed MSCIT during my 10th grade and I’ve been passionate about tech since then!</p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skill-boxes">
+        <div class="skill">
+          <i class="fab fa-html5"></i>
+          <h3>HTML</h3>
         </div>
-
-        <!-- Skills Section -->
-        <div class="skills">
-            <h2>My Skills</h2>
-            <div class="skills-container">
-                <div class="skill">
-                    <div class="skill-circle html"></div>
-                    <p>HTML</p>
-                </div>
-                <div class="skill">
-                    <div class="skill-circle css"></div>
-                    <p>CSS</p>
-                </div>
-                <div class="skill">
-                    <div class="skill-circle python"></div>
-                    <p>Python</p>
-                </div>
-                <div class="skill">
-                    <div class="skill-circle c"></div>
-                    <p>C</p>
-                </div>
-                <div class="skill">
-                    <div class="skill-circle cpp"></div>
-                    <p>C++</p>
-                </div>
-                <div class="skill">
-                    <div class="skill-circle sql"></div>
-                    <p>SQL</p>
-                </div>
-            </div>
+        <div class="skill">
+          <i class="fab fa-css3-alt"></i>
+          <h3>CSS</h3>
         </div>
-
-        <!-- Certificates Section -->
-        <div class="certificates">
-            <h2>My Certificates</h2>
-            <div class="certificates-container">
-                <div class="certificate">
-                    <img src="certificate-placeholder.jpg" alt="Certificate 1">
-                </div>
-                <div class="certificate">
-                    <img src="certificate-placeholder.jpg" alt="Certificate 2">
-                </div>
-                <div class="certificate">
-                    <img src="certificate-placeholder.jpg" alt="Certificate 3">
-                </div>
-            </div>
+        <div class="skill">
+          <i class="fab fa-python"></i>
+          <h3>Python</h3>
         </div>
-    </section>
-
-    <!-- 3. Contact Section -->
-    <section id="contact">
-        <div class="contact-container">
-            <h2>Let's Connect!</h2>
-            <div class="social-links">
-                <a href="https://www.linkedin.com" class="social-btn" target="_blank">LinkedIn</a>
-                <a href="https://github.com" class="social-btn" target="_blank">GitHub</a>
-                <a href="mailto:mayank@example.com" class="social-btn">Email</a>
-            </div>
+        <div class="skill">
+          <i class="fas fa-cogs"></i>
+          <h3>C / C++</h3>
         </div>
-    </section>
+        <div class="skill">
+          <i class="fas fa-database"></i>
+          <h3>SQL</h3>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- 4. Footer Section -->
-    <footer>
-        <p>Made with 💙 by Mayank Dantre — <span class="mic-drop">Mic Drop 🎤</span></p>
-    </footer>
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      
+      <div class="project">
+        <h3>Sentiment Analysis</h3>
+        <p>This project uses NLP to analyze sentiment from text. It utilizes the HuggingFace API for model inference.</p>
+        <img src="image/senti.jpeg" alt="Sentiment Analysis" />
+      </div>
 
-    <script src="script.js"></script>
+      <div class="project">
+        <h3>Snake Game</h3>
+        <p>A classic snake game built using Python. This project helped me learn about game loops and handling user input.</p>
+        <img src="image/snake.jpeg" alt="Snake Game" />
+      </div>
+
+      <div class="project">
+        <h3>Parking Model</h3>
+        <p>Designed to optimize parking space utilization in college parking lots. This project helps with better parking management.</p>
+        <img src="image/model.jpeg" alt="Parking Model" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates Section -->
+  <section id="certificates">
+    <div class="container">
+      <h2>Certificates</h2>
+      
+      <!-- MSCIT Certificate -->
+      <div class="certificate">
+        <h3>MSCIT</h3>
+        <img src="image/py.2.jpeg" alt="MSCIT Certificate" />
+      </div>
+
+      <!-- MySQL Certificate -->
+      <div class="certificate">
+        <h3>MySQL Certification</h3>
+        <img src="image/sql.jpeg" alt="MySQL Certificate" />
+      </div>
+
+      <!-- Python Certificate -->
+      <div class="certificate">
+        <h3>Python Certification</h3>
+        <img src="image/py1.jpeg" alt="Python Certificate" />
+      </div>
+
+    </div>
+  </section>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
