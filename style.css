@@ -1,177 +1,176 @@
 /* === Reset === */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #222831, #393e46);
-    color: white;
-    height: 100vh;
-    overflow-x: hidden;
-  }
-  
-  /* === First Page - Full Screen === */
-  #first-page {
-    height: 100vh; /* Full screen */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;  /* Vertically center content */
-    align-items: center;  /* Horizontally center content */
-    position: relative;
-    text-align: center;  /* Center text */
-  }
-  
-  /* === Header === */
-  .header {
-    display: flex;
-    flex-direction: column;  /* Stack the name and photo */
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
-    position5: absolute;
-    top: 50%;  /* Center it vertically */
-    left: 50%;
-    transform: translate(-50%, -50%); /* Exact center */
-  }
-  
-  /* === Name Top-Left === */
-  .name {
-    font-size: 2.8rem;
-    font-weight: bold;
-    line-height: 1.2;
-    color: #fff;
-    text-shadow: 2px 2px 4px #000;
-    text-align: center;  /* Center name text */
-  }
-  
-  .last-name {
-    color: #ffd369;
-    font-size: 3rem;
-  }
-  
-  /* === Social Icons Top-Center === */
-  .top-icons {
-    position: absolute;
-    top: -29%;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  
-  .top-icons a {
-    margin: 0 10px;
-    font-size: 1.5rem;
-    color: white;
-    transition: transform 0.3s ease, color 0.3s ease;
-  }
-  
-  .top-icons a:hover {
-    color: #ffd369;
-    transform: scale(1.2);
-  }
-  
-  /* === Circle Photo Top-Right === */
-  .circle-photo {
-    margin-top: 1rem;  /* Space between name and photo */
-  }
-  
-  .circle-photo img {
-    width: 250px; /* Adjust size of the photo */
-    height: 250px;
-    object-fit: fill;
-    border-radius: 50%;
-    border: 4px solid #ffd369;
-  }
-  
-  /* === Animated Text Bottom-Right === */
-  .animated-text {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    font-size: 2rem;
-    font-weight: bold;
-    color: #ffd369;
-  }
-  
-  #typing-effect::after {
-    content: "|";
-    animation: blink 1s infinite;
-  }
-  
-  @keyframes blink {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0; }
-  }
-  
-  /* === About Section === */
-  #about {
-    padding: 2rem;
-    background: #444;
-    text-align: center;
-  }
-  
-  /* === Skills Section === */
-  #skills {
-    padding: 2rem;
-    background: #333;
-  }
-  
-  .skill-boxes {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 1rem;
-  }
-  
-  .skill {
-    text-align: center;
-    font-size: 2rem;
-    padding: 1rem;
-  }
-  
-  .skill i {
-    font-size: 3rem;
-    color: #ffd369;
-  }
-  
-  .skill h3 {
-    margin-top: 10px;
-    color: white;
-  }
-  
-  /* === Projects Section === */
-  #projects {
-    padding: 2rem;
-    background: #444;
-  }
-  
-  .project {
-    margin: 2rem 0;
-    text-align: center;
-  }
-  
-  .project img {
-    width: 300px;
-    height: auto;
-    margin-top: 1rem;
-    border-radius: 10px;
-  }
-  
-  /* === Certificates Section === */
-  #certificates {
-    padding: 2rem;
-    background: #333;
-  }
-  
-  .certificate img {
-    width: 300px;
-    margin-top: 10px;
-    border-radius: 10px;
-    transition: transform 0.3s ease;
-  }
-  
-  .certificate img:hover {
-    transform: scale(1.05);  /* Slightly zoom in when hovering */
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #222831, #393e46);
+  color: white;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+/* === First Page - Full Screen === */
+#first-page {
+  height: 100vh; /* Full screen */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* Vertically center content */
+  align-items: center;  /* Horizontally center content */
+  position: relative;
+  text-align: center;  /* Center text */
+}
+
+/* === Header === */
+.header {
+  display: flex;
+  flex-direction: column;  /* Stack the name and photo */
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  position: absolute;
+  top: 50%;  /* Center it vertically */
+  left: 50%;
+  transform: translate(-50%, -50%); /* Exact center */
+}
+
+/* === Name Top-Left === */
+.name {
+  font-size: 2.8rem;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000;
+  text-align: center;  /* Center name text */
+}
+
+.last-name {
+  color: #ffd369;
+  font-size: 3rem;
+}
+
+/* === Social Icons Top-Center === */
+.top-icons {
+  position: absolute;
+  top: -30%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.top-icons a {
+  margin: 0 10px;
+  font-size: 1.5rem;
+  color: white;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.top-icons a:hover {
+  color: #ffd369;
+  transform: scale(1.2);
+}
+
+/* === Circle Photo Top-Right === */
+.circle-photo {
+  margin-top: 1rem;  /* Space between name and photo */
+}
+
+.circle-photo img {
+  width: 250px; /* Adjust size of the photo */
+  height: 250px;
+  object-fit: fill;
+  border-radius: 50%;
+  border: 4px solid #ffd369;
+}
+
+/* === Animated Text Bottom-Right === */
+.animated-text {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffd369;
+}
+
+#typing-effect::after {
+  content: "|";
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* === About Section === */
+#about {
+  padding: 2rem;
+  background: #444;
+  text-align: center;
+}
+
+/* === Skills Section === */
+#skills {
+  padding: 2rem;
+  background: #333;
+}
+
+.skill-boxes {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.skill {
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.skill i {
+  font-size: 3rem;
+  color: #ffd369;
+}
+
+.skill h3 {
+  margin-top: 10px;
+  color: white;
+}
+
+/* === Projects Section === */
+#projects {
+  padding: 2rem;
+  background: #444;
+}
+
+.project {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.project img {
+  width: 300px;
+  height: auto;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+
+/* === Certificates Section === */
+#certificates {
+  padding: 2rem;
+  background: #333;
+}
+
+.certificate img {
+  width: 300px;
+  margin-top: 10px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.certificate img:hover {
+  transform: scale(1.05);  /* Slightly zoom in when hovering */
+}
